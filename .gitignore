@@ -10,7 +10,7 @@ echo   "/////////////////////////////////////"
 
 sleep 5;
 
-echo "Comenzaremos a instalar Inkscape"
+echo "começando a instalar Inkscape"
 echo "."
 sleep 1;
 echo "em 4s"
@@ -31,11 +31,11 @@ sudo apt-get install gimp -y
 echo "<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>"
 echo "/                     Wolf                  /"
 echo "/                                           /"
-echo "/  obrigado se você gostou deixe seu like   /"
+echo "/  obrigado.se você gostou deixe seu like   /"
 echo "/                                           /"
-echo "/     e veje mais coisas no nosso blog      /"
+echo "/       veja mais coisas no meu blog        /"
 echo "/                                           /"
-echo "/                Coisas do Wolf             /"
+echo "/               Coisas do Wolf              /"
 echo "/                                           /"
 echo "/                                           /"
 echo "/                                           /"

@@ -1,19 +1,45 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-[Oo]bj/ # FlashDevelop obj
-[Bb]in/ # FlashDevelop bin
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+echo   "/////////////////////////////////////"
+echo "//      Desenvolvedor: Wolf           //"
+echo "//                                    //"
+echo "//       Inkscape e Gimp              //"
+echo "//                                    //"
+echo "//                                    //"
+echo   "/////////////////////////////////////"
 
-# Other files and folders
-.settings/
+sleep 5;
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+echo "Comenzaremos a instalar Inkscape"
+echo "."
+sleep 1;
+echo "em 4s"
+sleep 1;   
+echo "."
+sleep 1;
+echo "em 2s"
+sleep 1;
+echo "."
+sleep 1;
+sudo add-apt-repository ppa:inkscape.dev/stable -y
+sudo apt-get update -y
+sudo apt-get install inkscape -y
+sleep 2;
+sudo add-apt-repository ppa:otto-kesselgulasch/gimp -y
+sudo apt-get update -y
+sudo apt-get install gimp -y
+echo "<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>"
+echo "/                     Wolf                  /"
+echo "/                                           /"
+echo "/  obrigado se você gostou deixe seu like   /"
+echo "/                                           /"
+echo "/     e veje mais coisas no nosso blog      /"
+echo "/                                           /"
+echo "/                Coisas do Wolf             /"
+echo "/                                           /"
+echo "/                                           /"
+echo "/                                           /"
+echo "<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>"
+sleep 2;
+echo                     "Até logo galera do sexo"
+exit

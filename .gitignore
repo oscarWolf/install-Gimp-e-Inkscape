@@ -13,6 +13,7 @@ sleep 5;
 echo "começando a instalar Inkscape"
 echo "."
 sleep 1;
+echo "."
 sleep 1;   
 echo "."
 sleep 1;

@@ -13,11 +13,9 @@ sleep 5;
 echo "começando a instalar Inkscape"
 echo "."
 sleep 1;
-echo "em 4s"
 sleep 1;   
 echo "."
 sleep 1;
-echo "em 2s"
 sleep 1;
 echo "."
 sleep 1;
@@ -41,5 +39,5 @@ echo "/                                           /"
 echo "/                                           /"
 echo "<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>"
 sleep 2;
-echo                     "Até logo galera do sexo"
+echo               "Até logo galera!!!"
 exit
